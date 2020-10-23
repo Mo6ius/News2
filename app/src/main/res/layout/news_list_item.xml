@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item that displays an article -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutStyle1">
+
+    <!-- Displays each article in the list -->
+    <LinearLayout style="@style/LayoutStyle1">
+
+        <!-- Displays the section of the article -->
+        <TextView
+            android:id="@+id/section"
+            style="@style/SectionStyle"
+            tools:text="Technology" />
+
+        <!-- Displays a vertical line -->
+        <View style="@style/VerticalLineStyle" />
+
+        <!-- Displays the title and author of that article (if available) -->
+        <LinearLayout style="@style/LayoutStyle2">
+
+            <!-- Displays the title of that article -->
+            <TextView
+                android:id="@+id/title"
+                style="@style/TitleStyle"
+                tools:text="Title of Article" />
+
+            <!-- Displays the author of that article -->
+            <LinearLayout style="@style/LayoutStyle3">
+
+                <!-- Displays the dash in front of the author's name -->
+                <TextView
+                    android:id="@+id/startDash"
+                    style="@style/AuthorStyle"
+                    android:text="@string/startDash" />
+
+                <!-- Displays the author of that article -->
+                <TextView
+                    android:id="@+id/author"
+                    style="@style/AuthorStyle"
+                    tools:text="Author of Article" />
+
+                <!-- Displays the dash after the author's name -->
+                <TextView
+                    android:id="@+id/endDash"
+                    style="@style/AuthorStyle"
+                    android:text="@string/endDash" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Displays a vertical line -->
+        <View style="@style/VerticalLineStyle" />
+
+        <!-- Displays the date of publication -->
+        <LinearLayout style="@style/LayoutStyle4">
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/DateStyle"
+                tools:text="2018-09-06" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Displays a horizontal line -->
+    <View style="@style/HorizontalLineStyle" />
+
+</RelativeLayout>

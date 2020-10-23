@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">News App Stage 2</string>
+
+    <!-- Default text to show with the article section -->
+    <string name="section">Technology</string>
+
+    <!-- Text to display in the list when there are no articles [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found at this moment.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Insert an n-dash in front of the author's name [CHAR LIMIT=NONE] -->
+    <string name="startDash">&#x2013;&#160;</string>
+
+    <!-- Insert an n-dash after the author's name [CHAR LIMIT=NONE] -->
+    <string name="endDash">&#160;&#x2013;</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Minimum Article Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_article_label">Minimum Article(s)</string>
+    <string name="settings_min_article_key" translatable="false">min_article</string>
+    <string name="settings_min_article_default" translatable="false">0</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <string name="settings_section_label">Section</string>
+    <string name="settings_by_section_key" translatable="false">section</string>
+    <string name="settings_by_section_default" translatable="false">@string/settings_section_all_articles_value</string>
+
+    <string name="settings_section_all_articles_label">All</string>
+    <string name="settings_section_all_articles_value" translatable="false">all</string>
+
+    <string name="settings_by_section_all_article_label">All</string>
+    <string name="settings_by_section_all_article_value" translatable="false">all</string>
+
+    <string name="settings_by_section_business_article_label">Business</string>
+    <string name="settings_by_section_business_article_value" translatable="false">business</string>
+
+    <string name="settings_by_section_cities_article_label">Cities</string>
+    <string name="settings_by_section_cities_article_value" translatable="false">cities</string>
+
+    <string name="settings_by_section_education_article_label">Education</string>
+    <string name="settings_by_section_education_article_value" translatable="false">education</string>
+
+    <string name="settings_by_section_film_article_label">Film</string>
+    <string name="settings_by_section_film_article_value" translatable="false">film</string>
+
+    <string name="settings_by_section_media_article_label">Media</string>
+    <string name="settings_by_section_media_article_value" translatable="false">media</string>
+
+    <string name="settings_by_section_politics_article_label">Politics</string>
+    <string name="settings_by_section_politics_article_value" translatable="false">politics</string>
+
+    <string name="settings_by_section_society_article_label">Society</string>
+    <string name="settings_by_section_society_article_value" translatable="false">society</string>
+
+    <string name="settings_by_section_stage_article_label">Stage</string>
+    <string name="settings_by_section_stage_article_value" translatable="false">stage</string>
+
+    <string name="settings_by_section_world_article_label">World</string>
+    <string name="settings_by_section_world_article_value" translatable="false">world</string>
+
+</resources>

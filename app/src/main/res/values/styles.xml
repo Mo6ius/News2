@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1a237e</item>
+        <item name="colorPrimaryDark">#000051</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the section of the article to which it belongs -->
+    <style name="SectionStyle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#1a237e</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style for the title of the article -->
+    <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">#1a237e</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style for the author of the article -->
+    <style name="AuthorStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_below">@+id/title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#1a237e</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style for the date of publication -->
+    <style name="DateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">#1a237e</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- Style for the layout of each article -->
+    <style name="LayoutStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <!-- Style for the layout of title and author -->
+    <style name="LayoutStyle2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <!-- Style for the layout of author and dashes -->
+    <style name="LayoutStyle3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <!-- Style for the layout of date of publication -->
+    <style name="LayoutStyle4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+
+    <!-- Vertical Divider -->
+    <style name="VerticalLineStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">#f44336</item>
+    </style>
+
+    <!-- Horizontal Divider -->
+    <style name="HorizontalLineStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">#f44336</item>
+    </style>
+</resources>
